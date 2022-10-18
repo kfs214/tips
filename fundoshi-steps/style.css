@@ -18,6 +18,10 @@ section:nth-child(2n) {
   flex-direction: row-reverse;
 }
 
+.how-to-use-fundoshi {
+  counter-reset: how-to-use-steps;
+}
+
 .step-image-container {
   display: inline-flex;
   justify-content: space-around;
@@ -35,6 +39,7 @@ section:nth-child(2n) {
 .how-to-use-steps-container {
   flex-shrink: 0;
   max-width: 300px;
+  margin: 12px;
 }
 
 .how-to-use-steps {
