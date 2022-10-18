@@ -1,9 +1,17 @@
-section + section {
-  margin-top: 24px;
+body {
+  background: #83ccd2;
 }
 
 section {
   display: flex;
+  align-items: center;
+  background: #59b9c6;
+  border-radius: 24px;
+  gap: 12px;
+}
+
+section + section {
+  margin-top: 24px;
 }
 
 section:nth-child(2n) {
@@ -24,12 +32,16 @@ section:nth-child(2n) {
   min-width: 50px;
 }
 
+.how-to-use-steps-container {
+  flex-shrink: 0;
+  max-width: 300px;
+}
+
 .how-to-use-steps {
   display: inline-flex;
   align-items: center;
   /* TODO 増えていないので確認 */
   counter-increment: how-to-use-steps;
-  flex-shrink: 0;
 }
 
 .how-to-use-steps::before {
