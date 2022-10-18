@@ -2,6 +2,14 @@ section + section {
   margin-top: 24px;
 }
 
+section {
+  display: flex;
+}
+
+section:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
 .how-to-use-steps {
   display: inline-flex;
   align-items: center;
