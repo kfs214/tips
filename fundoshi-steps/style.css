@@ -45,7 +45,6 @@ section:nth-child(2n) {
 .how-to-use-steps {
   display: inline-flex;
   align-items: center;
-  /* TODO 増えていないので確認 */
   counter-increment: how-to-use-steps;
 }
 
